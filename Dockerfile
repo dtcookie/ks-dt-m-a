@@ -1,3 +1,3 @@
 FROM debian
-COPY ks-dt-m-a /
+COPY ./build/ks-dt-m-a /ks-dt-m-a
 ENTRYPOINT ["/ks-dt-m-a", "--logtostderr=true"]
