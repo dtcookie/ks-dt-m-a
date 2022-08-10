@@ -14,6 +14,7 @@ import (
 	"k8s.io/metrics/pkg/apis/external_metrics"
 )
 
+// Topology has no documentation
 type Topology struct {
 	client        *topology.Client
 	services      cache.Repo
