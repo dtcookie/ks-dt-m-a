@@ -33,7 +33,7 @@ import (
 type MetricsAdapter struct {
 	basecmd.AdapterBase
 
-	// Message is printed on successful startup
+	// Message    is printed on successful startup
 	Message string
 }
 
