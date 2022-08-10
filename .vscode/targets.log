@@ -1,0 +1,428 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# �Make�-Datenbank; erstellt am: Wed Aug 10 10:43:25 2022
+
+# Variablen
+
+# automatisch
+<D = $(patsubst %/,%,$(dir $<))
+# automatisch
+?F = $(notdir $?)
+# Makefile
+MAKEFLAGS = Rrqp
+# automatisch
+?D = $(patsubst %/,%,$(dir $?))
+# automatisch
+@D = $(patsubst %/,%,$(dir $@))
+# Umgebung
+HOMEDRIVE = C:
+# automatisch
+@F = $(notdir $@)
+# automatisch
+^D = $(patsubst %/,%,$(dir $^))
+# Makefile
+CURDIR := c:/Users/Reinhard.Pilz/go/src/github.com/dtcookie/ks-dt-m-a
+# Standard
+SHELL := sh.exe
+# Umgebung
+WINDIR = C:\WINDOW 
+S
+# Umgebung
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# Umgebung
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# Umgebung
+ONEDRIVE = C:\Users\Reinhard.Pilz\OneDrive - Dynatrace
+# Umgebung
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# Makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# Umgebung
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# Umgebung
+TMP = C:\Users\Reinhard.Pilz\AppData\Local\Temp
+# Umgebung
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# Makefile (from `makefile', line 7)
+VERSION = latest
+# Umgebung
+PROGRAMW6432 = C:\Program Files
+# Umgebung
+PROGRAMDATA = C:\ProgramData
+# Umgebung
+VSCODE_CWD = C:\Users\Reinhard.Pilz\AppData\Local\Programs\Microsoft VS Code
+# Umgebung
+GOPROXY = https://proxy.golang.org,direct
+# Umgebung
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\devtools\jdk1.8.0_191\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\devtools\cf-cli;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MIT\Kerberos\bin;C:\devtools\terraform;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Mitel\Connect\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\devtools\play-2.0;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Go\bin;C:\devtools\Git\cmd;C:\devtools\jdk-14.0.1\bin;C:\Users\Reinhard.Pilz\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Reinhard.Pilz\AppData\Local\Programs\Python\Python39\;C:\Users\Reinhard.Pilz\AppData\Local\Microsoft\WindowsApps;C:\Users\Reinhard.Pilz\go\bin;C:\Users\Reinhard.Pilz\AppData\Local\Programs\Microsoft VS Code\bin;C:\devtools\cf-cli;C:\devtools\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\Reinhard.Pilz\AppData\Local\GitHubDesktop\bin;C:\devtools\apache-maven-3.6.0\bin;C:\devtools\kubectl;C:\Users\Reinhard.Pilz\Downloads\foo\google-cloud-sdk-196.0.0-windows-x86_64-bundled-python\google-cloud-sdk\bin;C:\Users\Reinhard.Pilz\AppData\Local\Programs\Fiddler;C:\Users\Reinhard.Pilz\AppData\Roaming\npm;C:\Users\Reinhard.Pilz\AppData\Local\Programs\IPFS Desktop\resources\app.asar.unpacked\out\ipfs-on-path\scripts\bin-win;C:\devtools\istio-1.5.0\bin;C:\ProgramData\chectl\chectl\bin;C:\devtools\wix311-binaries;C:\Users\Reinhard.Pilz\.dotnet\tools;C:\devtools\GnuWin32\bin;C:\devtools\gradle-6.9.1\bin;C:\Users\Reinhard.Pilz\AppData\Local\Microsoft\WindowsApps;C:\Users\Reinhard.Pilz\go\bin
+# Makefile (from `makefile', line 1)
+ndef = $(if $(value $(1)),,$(error $(1) not set))
+# Umgebung
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# Umgebung
+ZES_ENABLE_SYSMAN = 1
+# Umgebung
+CHOCOLATEYLASTPATHUPDATE = 132030701407481408
+# Umgebung
+PROCESSOR_ARCHITECTURE = x86
+# Umgebung
+USERPROFILE = C:\Users\Reinhard.Pilz
+# Umgebung
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# Umgebung
+ALLUSERSPROFILE = C:\ProgramData
+# Umgebung
+GOPATH = C:\Users\Reinhard.Pilz\go
+# Umgebung
+NUMBER_OF_PROCESSORS = 12
+# Umgebung
+ELECTRON_RUN_AS_NODE = 1
+# Standard
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatisch
+%F = $(notdir $%)
+# Umgebung
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_25164_YTSWXVZITTHPWOXG
+# Makefile (from `makefile', line 2)
+IMAGE = ks-dt-m-a
+# Umgebung
+COMPUTERNAME = TAG009442447542
+# Umgebung
+PROGRAMFILES = C:\Program Files (x86)
+# Umgebung
+USERDNSDOMAIN = DYNATRACE.ORG
+# Umgebung
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# Umgebung
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# Umgebung
+USERNAME = Reinhard.Pilz
+# Umgebung
+PUBLIC = C:\Users\Public
+# Umgebung
+GOMODCACHE = C:\Users\Reinhard.Pilz\go\pkg\mod
+# Umgebung
+VSCODE_CODE_CACHE_PATH = C:\Users\Reinhard.Pilz\AppData\Roaming\Code\CachedData\da76f93349a72022ca4670c1b84860304616aaa2
+# Umgebung
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# Umgebung
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# Umgebung
+LOGONSERVER = \\AT1I-DC04
+# Umgebung
+NSPR_NATIVE_THREADS_ONLY = 1
+# Umgebung
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# Umgebung
+USERDOMAIN = DYNATRACE
+# Makefile (from `makefile', line 4)
+TEMP_DIR := 
+# Standard
+MAKE = $(MAKE_COMMAND)
+# Standard
+MAKECMDGOALS := all
+# Umgebung
+JAVA_HOME = C:\devtools\jdk-14.0.1
+# Umgebung
+ONEDRIVECOMMERCIAL = C:\Users\Reinhard.Pilz\OneDrive - Dynatrace
+# Standard
+MAKE_VERSION := 3.81
+# Umgebung
+__PSLOCKDOWNPOLICY = 0
+# Umgebung
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatisch
+%D = $(patsubst %/,%,$(dir $%))
+# Makefile (from `makefile', line 6)
+OUT_DIR = ./_output
+# Umgebung
+LOCALAPPDATA = C:\Users\Reinhard.Pilz\AppData\Local
+# Umgebung
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# Standard
+MAKE_COMMAND := make.exe
+# Umgebung
+PROCESSOR_ARCHITEW6432 = AMD64
+# Standard
+.VARIABLES := 
+# automatisch
+*F = $(notdir $*)
+# Umgebung
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# Umgebung
+OS = Windows_NT
+# Umgebung
+VSCODE_IPC_HOOK = \\.\pipe\95e98e381567c9c550ba08b118b106ec-1.70.0-main-sock
+# Makefile (from `makefile', line 5)
+ARCH = amd64
+# Umgebung
+HOMEPATH = \Users\Reinhard.Pilz
+# Umgebung
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# Umgebung
+PROMPT = $P$G
+# Umgebung
+MFLAGS = -Rrqp
+# automatisch
+*D = $(patsubst %/,%,$(dir $*))
+# Umgebung
+SYSTEMROOT = C:\WINDOWS
+# automatisch
++D = $(patsubst %/,%,$(dir $+))
+# automatisch
++F = $(notdir $+)
+# Umgebung
+APPDATA = C:\Users\Reinhard.Pilz\AppData\Roaming
+# Umgebung
+TEMP = C:\Users\Reinhard.Pilz\AppData\Local\Temp
+# Umgebung
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# Standard
+MAKEFILES := 
+# automatisch
+<F = $(notdir $<)
+# Makefile (from `makefile', line 3)
+EXECUTABLE = $(IMAGE)
+# Umgebung
+LC_ALL = C
+# Umgebung
+UATDATA = C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+# automatisch
+^F = $(notdir $^)
+# Standard
+SUFFIXES := 
+# Umgebung
+SYSTEMDRIVE = C:
+# Umgebung
+SESSIONNAME = Console
+# Umgebung
+PROCESSOR_REVISION = 9e0a
+# Umgebung
+MAKELEVEL := 0
+# Makefile
+.DEFAULT_GOAL := all
+# Umgebung
+VSTO_SUPPRESSDISPLAYALERTS = 0
+# Umgebung
+LANG = C
+# Umgebung
+PROCESSOR_LEVEL = 6
+# Umgebung
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# Umgebung
+DT_DEBUGFLAGS = debugInProcTaggingCreateUntaggedScopesDotnet=true,debugMessagingAmqpRabbitIntrospectionDotnet=true,debugLogPathCorrelationNative=true,debugInProcTaggingDotnet=true,debugInProcTaggingSimpleModeDotnet=true,debugInProcTaggingWorkNodesDotnet=true
+# Umgebung
+VSCODE_PID = 25164
+# Umgebung
+USERDOMAIN_ROAMINGPROFILE = DYNATRACE
+# variable set hash-table stats:
+# Load=105/1024=10%, Rehash=0, Collisions=14/134=10%
+
+# Pattern-specific Variable Values
+
+# Keine musterspezifischen Variablenwerte.
+
+# Verzeichnisse
+
+# C:\devtools\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin (Schl�ssel (key) C:/devtools/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin,  letzte �nderung (mtime) 1540038578): 58 Dateien, keine Unm�glichkeiten.
+# C:\Program Files (x86)\Mitel\Connect\ (Schl�ssel (key) C:/Program Files (x86)/Mitel/Connect/,  letzte �nderung (mtime) 1644406383): 23 Dateien, keine Unm�glichkeiten.
+# C:\Program Files\Docker\Docker\resources\bin (Schl�ssel (key) C:/Program Files/Docker/Docker/resources/bin,  letzte �nderung (mtime) 1647427958): 13 Dateien, keine Unm�glichkeiten.
+# C:\Program Files\Go\bin (Schl�ssel (key) C:/Program Files/Go/bin,  letzte �nderung (mtime) 1651836605): 4 Dateien, keine Unm�glichkeiten.
+# C:\devtools\GnuWin32\bin (Schl�ssel (key) C:/devtools/GnuWin32/bin,  letzte �nderung (mtime) 1605627518): 5 Dateien, keine Unm�glichkeiten.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (Schl�ssel (key) C:/WINDOWS/System32/WindowsPowerShell/v1.0/,  letzte �nderung (mtime) 1645532949): 32 Dateien, keine Unm�glichkeiten.
+# C:\WINDOWS\System32\Wbem (Schl�ssel (key) C:/WINDOWS/System32/Wbem,  letzte �nderung (mtime) 1655883341): 172 Dateien, keine Unm�glichkeiten.
+# . (Schl�ssel (key) c:/Users/Reinhard.Pilz/go/src/github.com/dtcookie/ks-dt-m-a,  letzte �nderung (mtime) 1660121002): 19 Dateien, keine Unm�glichkeiten.
+# C:\Program Files\nodejs\ (Schl�ssel (key) C:/Program Files/nodejs/,  letzte �nderung (mtime) 1574683901): 11 Dateien, keine Unm�glichkeiten.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (Schl�ssel (key) C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common,  letzte �nderung (mtime) 1539788424): 10 Dateien, keine Unm�glichkeiten.
+# C:\Program Files\TortoiseSVN\bin (Schl�ssel (key) C:/Program Files/TortoiseSVN/bin,  letzte �nderung (mtime) 1541412277): 59 Dateien, keine Unm�glichkeiten.
+# C:\ProgramData\chocolatey\bin (Schl�ssel (key) C:/ProgramData/chocolatey/bin,  letzte �nderung (mtime) 1558596636): 15 Dateien, keine Unm�glichkeiten.
+# C:\Program Files\dotnet\ (Schl�ssel (key) C:/Program Files/dotnet/,  letzte �nderung (mtime) 1658220738): 13 Dateien, keine Unm�glichkeiten.
+# C:\Users\Reinhard.Pilz\AppData\Local\Programs\Microsoft VS Code\bin (Schl�ssel (key) C:/Users/Reinhard.Pilz/AppData/Local/Programs/Microsoft VS Code/bin,  letzte �nderung (mtime) 1659694090): 4 Dateien, keine Unm�glichkeiten.
+# C:\devtools\terraform (Schl�ssel (key) C:/devtools/terraform,  letzte �nderung (mtime) 1652884076): 7 Dateien, keine Unm�glichkeiten.
+# C:\Users\Reinhard.Pilz\AppData\Local\Programs\Fiddler (Schl�ssel (key) C:/Users/Reinhard.Pilz/AppData/Local/Programs/Fiddler,  letzte �nderung (mtime) 1570177312): 40 Dateien, keine Unm�glichkeiten.
+# C:\Users\Reinhard.Pilz\AppData\Roaming\npm (Schl�ssel (key) C:/Users/Reinhard.Pilz/AppData/Roaming/npm,  letzte �nderung (mtime) 1600679630): 12 Dateien, keine Unm�glichkeiten.
+# C:\Users\Reinhard.Pilz\.dotnet\tools (Schl�ssel (key) C:/Users/Reinhard.Pilz/.dotnet/tools,  letzte �nderung (mtime) 1643645181): 5 Dateien, keine Unm�glichkeiten.
+# C:\WINDOWS\System32\OpenSSH\: Konnte den Status nicht feststellen.
+# C:\devtools\kubectl (Schl�ssel (key) C:/devtools/kubectl,  letzte �nderung (mtime) 1587371715): 5 Dateien, keine Unm�glichkeiten.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (Schl�ssel (key) C:/Program Files (x86)/Common Files/Oracle/Java/javapath,  letzte �nderung (mtime) 1621583443): 5 Dateien, keine Unm�glichkeiten.
+# C:\devtools\play-2.0 (Schl�ssel (key) C:/devtools/play-2.0,  letzte �nderung (mtime) 1604573269): 9 Dateien, keine Unm�glichkeiten.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (Schl�ssel (key) C:/Program Files/Microsoft SQL Server/130/Tools/Binn/,  letzte �nderung (mtime) 1539868219): 4 Dateien, keine Unm�glichkeiten.
+# C:\WINDOWS (Schl�ssel (key) C:/WINDOWS,  letzte �nderung (mtime) 1599123580): 161 Dateien, keine Unm�glichkeiten.
+# C:\devtools\wix311-binaries (Schl�ssel (key) C:/devtools/wix311-binaries,  letzte �nderung (mtime) 1599638921): 76 Dateien, keine Unm�glichkeiten.
+# C:\Users\Reinhard.Pilz\Downloads\foo\google-cloud-sdk-196.0.0-windows-x86_64-bundled-python\google-cloud-sdk\bin: Konnte den Status nicht feststellen.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (Schl�ssel (key) C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/,  letzte �nderung (mtime) 1612954692): 7 Dateien, keine Unm�glichkeiten.
+# C:\Program Files\MIT\Kerberos\bin (Schl�ssel (key) C:/Program Files/MIT/Kerberos/bin,  letzte �nderung (mtime) 1548241409): 33 Dateien, keine Unm�glichkeiten.
+# C:\Users\Reinhard.Pilz\AppData\Local\Programs\Python\Python39\ (Schl�ssel (key) C:/Users/Reinhard.Pilz/AppData/Local/Programs/Python/Python39/,  letzte �nderung (mtime) 1656067152): 18 Dateien, keine Unm�glichkeiten.
+# C:\Users\Reinhard.Pilz\AppData\Local\GitHubDesktop\bin (Schl�ssel (key) C:/Users/Reinhard.Pilz/AppData/Local/GitHubDesktop/bin,  letzte �nderung (mtime) 1540039343): 4 Dateien, keine Unm�glichkeiten.
+# C:\devtools\cf-cli: Konnte den Status nicht feststellen.
+# C:\devtools\jdk-14.0.1\bin (Schl�ssel (key) C:/devtools/jdk-14.0.1/bin,  letzte �nderung (mtime) 1587136527): 125 Dateien, keine Unm�glichkeiten.
+# C:\Users\Reinhard.Pilz\AppData\Local\Microsoft\WindowsApps (Schl�ssel (key) C:/Users/Reinhard.Pilz/AppData/Local/Microsoft/WindowsApps,  letzte �nderung (mtime) 1659870381): 22 Dateien, keine Unm�glichkeiten.
+# C:\Users\Reinhard.Pilz\AppData\Local\Programs\Python\Python39\Scripts\ (Schl�ssel (key) C:/Users/Reinhard.Pilz/AppData/Local/Programs/Python/Python39/Scripts/,  letzte �nderung (mtime) 1647001417): 8 Dateien, keine Unm�glichkeiten.
+# C:\Program Files (x86)\dotnet\ (Schl�ssel (key) C:/Program Files (x86)/dotnet/,  letzte �nderung (mtime) 1652778073): 8 Dateien, keine Unm�glichkeiten.
+# C:\ProgramData\DockerDesktop\version-bin: Konnte den Status nicht feststellen.
+# C:\devtools\gradle-6.9.1\bin (Schl�ssel (key) C:/devtools/gradle-6.9.1/bin,  letzte �nderung (mtime) 318207600): 4 Dateien, keine Unm�glichkeiten.
+# C:\devtools\apache-maven-3.6.0\bin (Schl�ssel (key) C:/devtools/apache-maven-3.6.0/bin,  letzte �nderung (mtime) 1540410226): 8 Dateien, keine Unm�glichkeiten.
+# C:\WINDOWS\system32 (Schl�ssel (key) C:/WINDOWS/system32,  letzte �nderung (mtime) 1660119590): 3143 Dateien, keine Unm�glichkeiten.
+# C:\Users\Reinhard.Pilz\go\bin (Schl�ssel (key) C:/Users/Reinhard.Pilz/go/bin,  letzte �nderung (mtime) 1658234834): 21 Dateien, keine Unm�glichkeiten.
+# C:\devtools\istio-1.5.0\bin (Schl�ssel (key) C:/devtools/istio-1.5.0/bin,  letzte �nderung (mtime) 1585940395): 3 Dateien, keine Unm�glichkeiten.
+# C:\devtools\Git\cmd (Schl�ssel (key) C:/devtools/Git/cmd,  letzte �nderung (mtime) 1658907276): 7 Dateien, keine Unm�glichkeiten.
+# C:\Users\Reinhard.Pilz\AppData\Local\Programs\IPFS Desktop\resources\app.asar.unpacked\out\ipfs-on-path\scripts\bin-win: Konnte den Status nicht feststellen.
+# C:\devtools\jdk1.8.0_191\bin (Schl�ssel (key) C:/devtools/jdk1.8.0_191/bin,  letzte �nderung (mtime) 1539858510): 56 Dateien, keine Unm�glichkeiten.
+# C:\ProgramData\chectl\chectl\bin (Schl�ssel (key) C:/ProgramData/chectl/chect 
+l/bin,  letzte �nderung (mtime) 1587102203): 7 Dateien, keine Unm�glichkeiten.
+
+# 4236 Dateien, keine Unm�glichkeiten in 45 Verzeichnissen.
+
+# Implicit Rules
+
+# Keine impliziten Regeln vorhanden.
+
+# Dateien
+
+all: build
+#  Vorget�uschtes Ziel (Voraussetzung von .PHONY).
+#  Kommandozeilen-Ziel (target).
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Die Datei existiert nicht.
+#  Datei wurde aktualisiert.
+#  Eine Aktualisierung ist notwendig (-q ist angegeben).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+
+.PHONY: all build test container push clean
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Zeit der letzten �nderung wurde nicht �berpr�ft.
+#  Datei wurde nicht aktualisiert.
+
+# Dies ist kein Ziel:
+.DEFAULT:
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Zeit der letzten �nderung wurde nicht �berpr�ft.
+#  Datei wurde nicht aktualisiert.
+
+push: container
+#  Vorget�uschtes Ziel (Voraussetzung von .PHONY).
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Die Datei existiert nicht.
+#  Datei wurde nicht aktualisiert.
+#  Auszuf�hrende Kommandos (aus �makefile�, Zeile 36):
+	docker push $(REGISTRY)/$(IMAGE)-$(ARCH):$(VERSION)
+	
+
+test:
+#  Vorget�uschtes Ziel (Voraussetzung von .PHONY).
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Die Datei existiert nicht.
+#  Datei wurde nicht aktualisiert.
+#  Auszuf�hrende Kommandos (aus �makefile�, Zeile 24):
+	CGO_ENABLED=0 go test ./...
+	
+
+# Dies ist kein Ziel:
+makefile:
+#  Suche nach 
+ impliziten Regeln wurde durchgef�hrt.
+#  Zuletzt ge�ndert 2022-08-10 10:40:19
+#  Datei wurde aktualisiert.
+#  Erfolgreich aktualisiert.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build: tidy
+#  Vorget�uschtes Ziel (Voraussetzung von .PHONY).
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Die Datei existiert nicht.
+#  Datei wurde aktualisiert.
+#  Eine Aktualisierung ist notwendig (-q ist angegeben).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+#  Auszuf�hrende Kommandos (aus �makefile�, Zeile 18):
+	CGO_ENABLED=0 GOOS=linux GOARCH=$(ARCH) go build -o $(OUT_DIR)/$(ARCH)/$(EXECUTABLE)
+	
+
+container: build
+#  Vorget�uschtes Ziel (Voraussetzung von .PHONY).
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Die Datei existiert nicht.
+#  Datei wurde nicht aktualisiert.
+#  Auszuf�hrende Kommandos (aus �makefile�, Zeile 27):
+	$(call ndef,REGISTRY)
+	cp Dockerfile $(TEMP_DIR)
+	cp $(OUT_DIR)/$(ARCH)/$(EXECUTABLE) $(TEMP_DIR)/$(EXECUTABLE)
+	cd $(TEMP_DIR) && sed -i.bak "s|BASEIMAGE|scratch|g" Dockerfile
+	sed -i.bak 's|REGISTRY|'${REGISTRY}'|g' deploy.yaml
+	docker build -t $(REGISTRY)/$(IMAGE)-$(ARCH):$(VERSION) $(TEMP_DIR)
+	rm -rf $(TEMP_DIR) deploy.yaml.bak
+	
+
+# Dies ist kein Ziel:
+.SUFFIXES:
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Zeit der letzten �nderung wurde nicht �berpr�ft.
+#  Datei wurde nicht aktualisiert.
+
+clean:
+#  Vorget�uschtes Ziel (Voraussetzung von .PHONY).
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Die Datei existiert nicht.
+#  Datei wurde nicht aktualisiert.
+#  Auszuf�hrende Kommandos (aus �makefile�, Zeile 14):
+	rm -rf $(TEMP_DIR)
+	rm -rf $(OUT_DIR)
+	
+
+tidy:
+#  Suche nach impliziten Regeln wurde nicht durchgef�hrt.
+#  Ersetzung f�r implizites/statisches Muster: ��
+#  Die Datei existiert nicht.
+#  Datei wurde aktualisiert.
+#  Eine Aktualisierung ist notwendig (-q ist angegeben).
+# automatisch
+# @ := tidy
+# automatisch
+# % := 
+# automatisch
+# * := 
+# automatisch
+# + := 
+# automatis 
+ch
+# | := 
+# automatisch
+# < := 
+# automatisch
+# ^ := 
+# automatisch
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  Auszuf�hrende Kommandos (aus �makefile�, Zeile 21):
+	go mod tidy
+	
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/34=0%
+# VPATH-Suchpfade
+
+# Keine �vpath�-Suchpfade.
+
+# Kein allgemeiner Suchpfad (Variable �VPATH�).
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# �Make�-Datenbank; beendet am: Wed Aug 10 10:43:25 2022
+
+ 
+process_begin: CreateProcess(NULL, mktemp -d, ...) failed.
+
